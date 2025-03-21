@@ -1,8 +1,8 @@
-import Image from "next/image"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import Image from "next/image";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -15,7 +15,7 @@ export default function Projects() {
             </Badge>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Recent Work</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Explore some of the projects we've successfully delivered for our clients.
+              Explore some of the projects we&apos;ve successfully delivered for our clients.
             </p>
           </div>
         </div>
@@ -110,6 +110,6 @@ export default function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 

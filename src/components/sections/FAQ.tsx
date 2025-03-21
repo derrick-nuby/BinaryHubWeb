@@ -1,5 +1,5 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { Badge } from "@/components/ui/badge"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Badge } from "@/components/ui/badge";
 
 export default function FAQ() {
   return (
@@ -30,7 +30,7 @@ export default function FAQ() {
               <AccordionTrigger>How long does a typical project take to complete?</AccordionTrigger>
               <AccordionContent>
                 Project timelines vary depending on complexity and scope. A simple website might take 4-6 weeks, while a
-                complex enterprise application could take 6-12 months. During our initial consultation, we'll provide a
+                complex enterprise application could take 6-12 months. During our initial consultation, we&apos;ll provide a
                 detailed timeline based on your specific requirements.
               </AccordionContent>
             </AccordionItem>
@@ -61,7 +61,7 @@ export default function FAQ() {
             <AccordionItem value="item-6">
               <AccordionTrigger>Can you work with our existing team?</AccordionTrigger>
               <AccordionContent>
-                We can collaborate with your existing team, providing specialized expertise where needed. We're flexible
+                We can collaborate with your existing team, providing specialized expertise where needed. We&apos;re flexible
                 in our approach and can adapt to your preferred workflow and communication methods.
               </AccordionContent>
             </AccordionItem>
@@ -69,6 +69,6 @@ export default function FAQ() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 

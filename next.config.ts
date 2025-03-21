@@ -21,7 +21,10 @@ const nextConfig: NextConfig = {
         hostname: "ibb.co"
       },
     ]
-  }
+  },
+  env: {
+    PORT: process.env.PORT || "3001",
+  },
 };
 
 export default nextConfig;
