@@ -1,0 +1,1 @@
+docker run -d --name BinaryHubWeb -p 3000:3000 --env environment=production --restart unless-stopped --network BinaryHubWeb-app-network ghcr.io/derrick-nuby/BinaryHubWeb:prod
